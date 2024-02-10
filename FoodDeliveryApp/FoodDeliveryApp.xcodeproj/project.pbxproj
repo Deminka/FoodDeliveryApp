@@ -17,6 +17,7 @@
 		041254C52B6BABC70005CEF1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041254C42B6BABC70005CEF1 /* TabBarController.swift */; };
 		041254C92B721D990005CEF1 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041254C82B721D990005CEF1 /* OnboardingViewController.swift */; };
 		041254CB2B7220060005CEF1 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041254CA2B7220060005CEF1 /* OnboardingViewPresenter.swift */; };
+		041254CD2B7243B40005CEF1 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041254CC2B7243B40005CEF1 /* OnboardingPartViewController.swift */; };
 		0424866B2B66B9410015CF93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424866A2B66B9410015CF93 /* AppDelegate.swift */; };
 		0424866D2B66B9410015CF93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424866C2B66B9410015CF93 /* SceneDelegate.swift */; };
 		0424866F2B66B9410015CF93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424866E2B66B9410015CF93 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 		041254C42B6BABC70005CEF1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		041254C82B721D990005CEF1 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		041254CA2B7220060005CEF1 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
+		041254CC2B7243B40005CEF1 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 		042486672B66B9410015CF93 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0424866A2B66B9410015CF93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0424866C2B66B9410015CF93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				041254C82B721D990005CEF1 /* OnboardingViewController.swift */,
 				041254CA2B7220060005CEF1 /* OnboardingViewPresenter.swift */,
+				041254CC2B7243B40005CEF1 /* OnboardingPartViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				041254C12B6BAB310005CEF1 /* ListCoordinator.swift in Sources */,
 				041254BD2B6BAA8D0005CEF1 /* HomeCoordinator.swift in Sources */,
 				041254C52B6BABC70005CEF1 /* TabBarController.swift in Sources */,
+				041254CD2B7243B40005CEF1 /* OnboardingPartViewController.swift in Sources */,
 				0424869F2B66D6400015CF93 /* UIColor + Extension.swift in Sources */,
 				041254CB2B7220060005CEF1 /* OnboardingViewPresenter.swift in Sources */,
 				041254B72B690DCF0005CEF1 /* Coordinator.swift in Sources */,
