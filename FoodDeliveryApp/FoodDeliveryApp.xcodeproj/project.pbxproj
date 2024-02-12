@@ -40,6 +40,7 @@
 		0424869F2B66D6400015CF93 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424869E2B66D6400015CF93 /* UIColor + Extension.swift */; };
 		042486A12B66D7BC0015CF93 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042486A02B66D7BC0015CF93 /* AppColors.swift */; };
 		04C499152B79ECC10025DE7C /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C499142B79ECC10025DE7C /* UserStorage.swift */; };
+		04C499182B79F94D0025DE7C /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C499172B79F94D0025DE7C /* SceneFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		0424869E2B66D6400015CF93 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		042486A02B66D7BC0015CF93 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		04C499142B79ECC10025DE7C /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		04C499172B79F94D0025DE7C /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		041254C62B721CCA0005CEF1 /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				04C499162B79F91C0025DE7C /* SceneFactory */,
 				041254C72B721D240005CEF1 /* Onboarding */,
 			);
 			path = UILayer;
@@ -228,6 +231,14 @@
 			path = ServicesLayer;
 			sourceTree = "<group>";
 		};
+		04C499162B79F91C0025DE7C /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				04C499172B79F94D0025DE7C /* SceneFactory.swift */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,6 +337,7 @@
 				041254C52B6BABC70005CEF1 /* TabBarController.swift in Sources */,
 				041254CD2B7243B40005CEF1 /* OnboardingPartViewController.swift in Sources */,
 				04C499152B79ECC10025DE7C /* UserStorage.swift in Sources */,
+				04C499182B79F94D0025DE7C /* SceneFactory.swift in Sources */,
 				0424869F2B66D6400015CF93 /* UIColor + Extension.swift in Sources */,
 				041254CB2B7220060005CEF1 /* OnboardingViewPresenter.swift in Sources */,
 				041254B72B690DCF0005CEF1 /* Coordinator.swift in Sources */,
